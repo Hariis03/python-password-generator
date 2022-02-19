@@ -29,4 +29,4 @@ for c in passwordList:
 
 passwordLenght = len(randomPassword)
 
-print(f"Your Password is '{randomPassword}' ,and your password contains {passwordLenght} characters!")
+print(f"Your random password is '{randomPassword}' ,and your password contains {passwordLenght} characters!")
