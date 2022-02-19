@@ -12,20 +12,20 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 
 passwordList = []
 
-for char in range(1, nr_letters + 1):
+for c in range(1, nr_letters + 1):
   passwordList.append(random.choice(letters))
 
-for char in range (1, nr_symbols + 1):
+for c in range (1, nr_symbols + 1):
   passwordList.append(random.choice(symbols))
 
-for char in range (1,nr_numbers + 1):
+for c in range (1,nr_numbers + 1):
   passwordList.append(random.choice(numbers))
 
 random.shuffle(passwordList)
 randomPassword = ""
 
-for char in passwordList:
-  randomPassword += char
+for c in passwordList:
+  randomPassword += c
 
 passwordLenght = len(randomPassword)
 
